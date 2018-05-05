@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8"/>
+<meta charset="UTF-8" />
 <title>Insert title here</title>
 </head>
 <body>
 	<div>
 		<h1>Hello thymeleaf 模板</h1>
+		<br />
+		<p th:text="${name}"></p>
+		<h2>
+			数据是从后台返回的： <span th:text="${name}"></span>
+		</h2>
 	</div>
 </body>
 </html>
